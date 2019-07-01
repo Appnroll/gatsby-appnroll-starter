@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-appnroll-starter",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "App'n'roll starter",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "@appnroll",
   "dependencies": {
     "gatsby": "^2.11.6",
     "gatsby-image": "^2.2.3",
@@ -22,9 +22,8 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "appnroll"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -35,9 +34,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "TODO"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "TODO https://github.com/gatsbyjs/gatsby/issues"
   }
 }
