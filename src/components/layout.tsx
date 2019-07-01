@@ -8,6 +8,7 @@
 import React, { ReactChild } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from "styled-components"
+import { Normalize } from 'styled-normalize'
 
 import Header from "./header"
 import theme from "../theme"
@@ -33,6 +34,7 @@ const Layout = ({ children }: { children: ReactChild | ReactChild[] }) => {
   return (
     <ThemeProvider theme={theme}>
       <>
+        <Normalize/>
         <Header siteTitle={data.site.siteMetadata.title} />
         <ContentWrapper>
           <main>{children}</main>
