@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
-import { Theme } from "../theme";
+import { Theme } from "../theme"
 
 const HeaderRoot = styled.header`
   background: ${({ theme }: { theme: Theme }) => theme.color.background};
@@ -18,9 +18,7 @@ const Header = ({ siteTitle = `` }: { siteTitle: string }) => (
   <HeaderRoot>
     <ContentWrapper>
       <h1>
-        <Link to="/">
-          {siteTitle}
-        </Link>
+        <Link to="/">{siteTitle}</Link>
       </h1>
     </ContentWrapper>
   </HeaderRoot>

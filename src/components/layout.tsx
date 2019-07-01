@@ -5,13 +5,12 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+import { graphql, useStaticQuery } from "gatsby"
 import React, { ReactChild } from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from "styled-components"
-import { Normalize } from 'styled-normalize'
-
-import Header from "./header"
+import { Normalize } from "styled-normalize"
 import theme from "../theme"
+import Header from "./header"
 
 const ContentWrapper = styled.div`
   margin: 0 auto;
@@ -34,7 +33,7 @@ const Layout = ({ children }: { children: ReactChild | ReactChild[] }) => {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <Normalize/>
+        <Normalize />
         <Header siteTitle={data.site.siteMetadata.title} />
         <ContentWrapper>
           <main>{children}</main>
