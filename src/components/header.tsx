@@ -1,10 +1,10 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
+import { Theme } from "../theme";
 
 const HeaderRoot = styled.header`
-  background: ${({theme}) => theme.color.background};
+  background: ${({ theme }: { theme: Theme }) => theme.color.background};
   margin-bottom: 1.45rem;
 `
 
@@ -14,7 +14,7 @@ const ContentWrapper = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle = `` }: { siteTitle: string }) => (
   <HeaderRoot>
     <ContentWrapper>
       <h1>
@@ -25,13 +25,5 @@ const Header = ({ siteTitle }) => (
     </ContentWrapper>
   </HeaderRoot>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
