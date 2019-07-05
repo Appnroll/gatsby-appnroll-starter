@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import { Theme } from "../theme"
@@ -18,7 +17,7 @@ const Header = ({ siteTitle = `` }: { siteTitle: string }) => (
   <HeaderRoot>
     <ContentWrapper>
       <h1>
-        <Link to="/">{siteTitle}</Link>
+        {siteTitle}
       </h1>
     </ContentWrapper>
   </HeaderRoot>
