@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36b3065e-781a-482a-ad13-95d36c8effb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="36b3065e-781a-482a-ad13-95d36c8effb3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -58,8 +54,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/header.test.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="543">
-                  <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+                <state relative-caret-position="748">
+                  <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
                   <folding>
                     <element signature="e#0#47#0" expanded="true" />
                   </folding>
@@ -95,10 +91,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/header.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+                <state>
+                  <caret lean-forward="true" />
                   <folding>
-                    <element signature="e#0#29#0" expanded="true" />
+                    <element signature="e#0#25#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -130,8 +126,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/pages/index.tsx" />
-        <option value="$PROJECT_DIR$/src/components/header.tsx" />
         <option value="$PROJECT_DIR$/src/components/header.test.tsx" />
+        <option value="$PROJECT_DIR$/src/components/header.tsx" />
       </list>
     </option>
   </component>
@@ -201,6 +197,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -268,17 +265,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562326864294</updated>
-      <workItem from="1562326865438" duration="3440000" />
+      <workItem from="1562326865438" duration="3663000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="header_test_tsx - 2019.07.05 at 14h 39m 07s.xml">
-      <configuration name="header.test.tsx" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="header_test_tsx - 2019.07.05 at 14h 40m 11s.xml">
-      <configuration name="header.test.tsx" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="header_test_tsx - 2019.07.05 at 14h 40m 14s.xml">
       <configuration name="header.test.tsx" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -303,13 +294,18 @@
     <history-entry file="header_test_tsx - 2019.07.05 at 14h 45m 39s.xml">
       <configuration name="header.test.tsx" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="header_test_tsx - 2019.07.05 at 14h 47m 05s.xml">
+      <configuration name="header.test.tsx" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="header_test_tsx - 2019.07.05 at 14h 47m 18s.xml">
+      <configuration name="header.test.tsx" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3440000" />
+    <option name="totallyTimeSpent" value="3663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1333" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -318,11 +314,11 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32957292" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32957292" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32957292" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32957292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3996777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,18 +410,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="748">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
