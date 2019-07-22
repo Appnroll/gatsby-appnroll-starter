@@ -1,11 +1,8 @@
 import { render } from "@testing-library/react"
-import Enzyme, { shallow } from "enzyme"
+import { shallow } from "enzyme"
 import React from "react"
-import Adapter from "enzyme-adapter-react-16"
 import styled from "styled-components"
 import Header from "./header"
-
-Enzyme.configure({ adapter: new Adapter() })
 
 interface Props {
   text: string
