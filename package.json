@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "@appnroll",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "babel-plugin-remove-graphql-queries": "^2.7.2",
     "babel-plugin-styled-components": "^1.10.4",
     "gatsby": "^2.11.6",
     "gatsby-image": "^2.2.3",

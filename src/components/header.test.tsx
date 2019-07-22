@@ -27,9 +27,15 @@ describe(`Header`, () => {
 
 describe(`Header`, () => {
   it(`renders Header`, () => {
-    const wrapper = shallow(<Header siteTitle="title" />)
+    const data = {
+      site: {
+        siteMetadata: {
+          title: "App'n'roll Starter",
+        },
+      },
+    }
+    const wrapper = shallow(<Header siteTitle={data.site.siteMetadata.title} />)
     const text = wrapper.find("h1").text()
-    expect(text).toEqual("title")
+    expect(text).toEqual("App'n'roll Starter")
   })
 })
-
