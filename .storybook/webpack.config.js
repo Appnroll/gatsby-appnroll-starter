@@ -1,6 +1,4 @@
 module.exports = ({ config, mode }) => {
-  // set the NODE_ENV to 'production' by default, to allow babel-plugin-remove-graphql-queries to remove static queries
-  process.env.NODE_ENV = 'production'
   // Transpile Gatsby module because Gatsby includes un-transpiled ES6 code.
   config.module.rules[0].exclude = [/node_modules\/(?!(gatsby)\/)/]
 
