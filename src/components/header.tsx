@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import { Theme } from "../theme"
@@ -14,14 +13,14 @@ const ContentWrapper = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
-const Header = ({ siteTitle = `` }: { siteTitle: string }) => (
-  <HeaderRoot>
-    <ContentWrapper>
-      <h1>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
-    </ContentWrapper>
-  </HeaderRoot>
-)
+const Header = ({ siteTitle = `` }: { siteTitle?: string }) => {
+  return (
+    <HeaderRoot>
+      <ContentWrapper>
+        <h1>{siteTitle}</h1>
+      </ContentWrapper>
+    </HeaderRoot>
+  )
+}
 
 export default Header
