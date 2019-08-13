@@ -1,8 +1,22 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+const {
+  NODE_ENV,
+  URL: NETLIFY_SITE_URL = process.env.SITE_URL,
+  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+  CONTEXT: NETLIFY_ENV = NODE_ENV,
+} = process.env
+const netlifyProduction = NETLIFY_ENV === "production"
+const siteUrl = netlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
+
 module.exports = {
   siteMetadata: {
     title: `App'n'roll Starter`,
     description: `Application made by App'n'roll`,
     author: `@appnroll`,
+    siteUrl,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +38,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: 'src/images/appnroll.png',
+        icon: "src/images/appnroll.png",
       },
     },
     `gatsby-plugin-styled-components`,

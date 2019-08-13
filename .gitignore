@@ -71,3 +71,5 @@ yarn-error.log
 lighthouse-reports
 lighthouse-pages.json
 
+.env.development
+.env.production
