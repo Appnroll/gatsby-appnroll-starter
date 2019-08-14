@@ -68,8 +68,13 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
+# Lighthouse
 lighthouse-reports
 lighthouse-pages.json
 
+# Environmental settings
 .env.development
 .env.production
+
+# Storybook
+storybook-static
