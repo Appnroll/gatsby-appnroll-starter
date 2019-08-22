@@ -9,6 +9,16 @@
 
 Based on [Gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default).
 
+## Features
+
+- Typescript configured
+- Styled components v4
+- Prettier code styling
+- Lint staged with husky configured
+- Storybook v5
+- Lighthouse
+- Jest with Enzyme for unit testing
+
 ## What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
