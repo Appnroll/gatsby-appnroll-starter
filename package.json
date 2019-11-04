@@ -97,7 +97,8 @@
     "type": "git",
     "url": "TODO"
   },
-  "bugs": {
-    "url": "TODO https://github.com/gatsbyjs/gatsby/issues"
+  "engines": {
+    "node": "12.9.1",
+    "npm": "6.10.2"
   }
 }
