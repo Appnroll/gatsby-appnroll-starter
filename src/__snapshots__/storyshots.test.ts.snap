@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Header headers 1`] = `
+.c0 {
+  background: hotpink;
+  margin-bottom: 1.45rem;
+}
+
+.c1 {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+}
+
+<div
+  style={
+    Object {
+      "boxShadow": "rgba(102, 119, 136, 0.03) 0px 6px 8px, rgba(102, 119, 136, 0.3) 0px 1px 2px",
+      "maxHeight": "70vh",
+      "maxWidth": "70vw",
+      "overflow": "auto",
+      "padding": "30px",
+    }
+  }
+>
+  <header
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h1>
+        Title
+      </h1>
+    </div>
+  </header>
+</div>
+`;
