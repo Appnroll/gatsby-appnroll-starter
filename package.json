@@ -85,13 +85,19 @@
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "jest",
+    "test": "jest --config=./.jest/config.js",
+    "test:images": "npm run storybook:build -- --quiet && jest ./src/storyshots-images.test.ts --config=./.jest/config-base.js",
+    "test:images:update": "npm run test:images -- --updateSnapshot",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
+    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run",
     "type-check": "tsc --noEmit",
     "lint": "tslint --project .",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "storybook:serve": "start-storybook --port=6006 --static-dir=public",
+    "storybook:build": "./node_modules/.bin/build-storybook --static-dir=public",
     "test:lighthouse": "node ./lighthouse/runner.js ./lighthouse/manifest.js",
-    "test:lighthouse:serve": "node ./lighthouse/runner.js ./lighthouse/manifest.js http://localhost:9000 local"
+    "test:lighthouse:serve": "node ./lighthouse/runner.js ./lighthouse/manifest.js http://localhost:9000 local",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
