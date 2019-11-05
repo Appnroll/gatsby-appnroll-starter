@@ -1,0 +1,15 @@
+[
+  {
+    "type": "heading",
+    "content": "Hi, I'm Kitty!"
+  },
+  {
+    "type": "image",
+    "source": "http://placekitten.com/g/200/300"
+  },
+  {
+    "type": "list",
+    "headline": "Meow am I cute?",
+    "items": ["fluffy!", "roundy!", "meowy!"]
+  }
+]
