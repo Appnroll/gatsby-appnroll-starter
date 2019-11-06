@@ -10,7 +10,9 @@ const {
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
 const netlifyProduction = NETLIFY_ENV === "production"
-const siteUrl = netlifyProduction ? SITE_URL || NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
+const siteUrl = netlifyProduction
+  ? SITE_URL || NETLIFY_SITE_URL
+  : NETLIFY_DEPLOY_URL
 
 module.exports = {
   siteMetadata: {
