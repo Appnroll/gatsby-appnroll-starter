@@ -14,6 +14,15 @@ exports.onPostBuild = async function onPostBuild({ cache, store, graphql }) {
   fs.writeFileSync("./lighthouse-pages.json", JSON.stringify(pagesToCheck))
 }
 
+exports.onCreateBabelConfig = ({ actions }) => {
+  actions.setBabelPlugin({
+    name: require.resolve("@babel/plugin-proposal-optional-chaining"),
+  })
+  actions.setBabelPlugin({
+    name: require.resolve("@babel/plugin-proposal-nullish-coalescing-operator"),
+  })
+}
+
 const allPages = `
   query allSites {
     allSitePage {
