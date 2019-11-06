@@ -13,6 +13,14 @@ const ContentWrapper = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
+const prettier = {
+  18: true,
+  19: undefined
+}
+const bajery = prettier?.['19'] ?? "no"
+
+
+console.log(bajery)
 const Header = ({ siteTitle = `` }: { siteTitle?: string }) => {
   return (
     <HeaderRoot>

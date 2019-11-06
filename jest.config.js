@@ -17,6 +17,8 @@ module.exports = {
     __PATH_PREFIX__: "",
   },
   testURL: "http://localhost",
-  setupFiles: ["<rootDir>/src/jest-configuration-files/loadershim.js",
-    "<rootDir>/src/jest-configuration-files/enzyme-adapter.js",],
+  setupFiles: [
+    "<rootDir>/src/jest-configuration-files/loadershim.js",
+    "<rootDir>/src/jest-configuration-files/enzyme-adapter.js",
+  ],
 }
