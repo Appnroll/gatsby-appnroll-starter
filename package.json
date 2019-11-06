@@ -46,6 +46,7 @@
     "@types/react-helmet": "^5.0.14",
     "@types/react-test-renderer": "^16.9.1",
     "@types/storybook__addon-storyshots": "^5.1.1",
+    "@types/storybook__addon-storyshots-puppeteer": "^5.1.0",
     "@types/storybook__react": "^4.0.2",
     "@types/styled-components": "^4.1.21",
     "axios": "^0.19.0",
