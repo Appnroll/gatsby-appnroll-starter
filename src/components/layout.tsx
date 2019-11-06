@@ -10,13 +10,12 @@ import React, { ReactChild } from "react"
 import styled, { ThemeProvider } from "styled-components"
 import { Normalize } from "styled-normalize"
 import theme from "../theme"
-import Header from "./header"
+import Header from "./base/header/header.component"
 
 const ContentWrapper = styled.div`
   margin: 0 auto;
   max-width: 960px;
-  padding: 0px 1.0875rem 1.45rem;
-  padding-top: 0;
+  padding: 0 1.0875rem 1.45rem;
 `
 
 const Layout = ({ children }: { children: ReactChild | ReactChild[] }) => {

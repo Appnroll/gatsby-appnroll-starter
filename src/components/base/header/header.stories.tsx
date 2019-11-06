@@ -1,6 +1,6 @@
 import { storiesOf } from "@storybook/react"
 import * as React from "react"
-import Header from "./header"
+import HeaderComponent from "./header.component"
 
 const storyStyles = {
   padding: "30px",
@@ -17,4 +17,4 @@ const Container = (storyFn: () => React.ReactNode) => (
 
 storiesOf("Header", module)
   .addDecorator(Container)
-  .add("headers", () => <Header siteTitle="Title" />)
+  .add("headers", () => <HeaderComponent siteTitle="Title" />)
