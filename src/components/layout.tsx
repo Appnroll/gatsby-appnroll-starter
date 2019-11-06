@@ -9,7 +9,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import React, { ReactChild } from "react"
 import styled, { ThemeProvider } from "styled-components"
 import { Normalize } from "styled-normalize"
-import theme from "../theme"
+import theme from "../theming/theme"
 import Header from "./base/header/header.component"
 
 const ContentWrapper = styled.div`

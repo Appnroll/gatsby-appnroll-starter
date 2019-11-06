@@ -3,6 +3,9 @@ const theme = {
     text: {
       primary: "#000000",
     },
+    background: {
+      primary: "hotpink",
+    },
   },
   layout: {
     width: "73.75rem",

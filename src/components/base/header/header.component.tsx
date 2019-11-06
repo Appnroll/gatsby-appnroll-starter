@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components"
-import { Theme } from "../../../theme"
+import { backgroundColor } from "../../../theming/theme-getters"
 
 const HeaderRoot = styled.header`
-  background: ${({ theme }: { theme: Theme }) => theme.color.background};
+  background: ${backgroundColor("primary")};
   margin-bottom: 1.45rem;
 `
 

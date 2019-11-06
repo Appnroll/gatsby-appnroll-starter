@@ -2,6 +2,7 @@
 
 exports[`Storyshots Header headers 1`] = `
 .c0 {
+  background: hotpink;
   margin-bottom: 1.45rem;
 }
 
