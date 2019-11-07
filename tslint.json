@@ -4,7 +4,10 @@
     "tslint:recommended",
     "tslint-react",
     "tslint-eslint-rules",
-    "tslint-config-prettier"
+    "tslint-config-prettier",
+    "tslint:latest",
+    "tslint-react",
+    "tslint-react-a11y"
   ],
   "jsRules": {},
   "rules": {
@@ -14,8 +17,8 @@
     "object-literal-sort-keys": false,
     "jsx-boolean-value": false,
     "no-var-requires": false,
-    "prettier": true
+    "prettier": true,
+    "react-a11y-lang": false
   },
   "rulesDirectory": ["tslint-plugin-prettier"]
 }
-  
