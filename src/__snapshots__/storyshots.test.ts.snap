@@ -1,6 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Header headers 1`] = `
+exports[`Storyshots Base|Footer headers 1`] = `
+<footer>
+  © 
+  2019
+  , Made by
+   
+  <a
+    href="https://www.appnroll.com/"
+    title="App'n'roll"
+  >
+    <test-file-stub />
+  </a>
+</footer>
+`;
+
+exports[`Storyshots Base|Header headers 1`] = `
 .c0 {
   background: hotpink;
   margin-bottom: 1.45rem;
