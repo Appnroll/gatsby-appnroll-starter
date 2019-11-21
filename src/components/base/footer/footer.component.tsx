@@ -2,8 +2,6 @@ import React from "react"
 import AppnrollLogo from "../../../images/appnroll.svg"
 import FunctionComponent from "../../../types/function-component.interface"
 
-console.log(AppnrollLogo)
-
 const Footer: FunctionComponent = () => {
   return (
     <footer>
