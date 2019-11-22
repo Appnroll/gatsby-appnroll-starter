@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "@appnroll",
   "dependencies": {
+    "@appnroll/redacted": "^1.0.1",
     "@babel/plugin-proposal-class-properties": "^7.7.0",
     "babel-plugin-remove-graphql-queries": "^2.7.16",
     "babel-plugin-styled-components": "^1.10.6",
