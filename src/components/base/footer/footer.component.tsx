@@ -1,6 +1,6 @@
+import { FunctionComponent } from "@appnroll/redacted"
 import React from "react"
 import AppnrollLogo from "../../../images/appnroll.svg"
-import FunctionComponent from "../../../types/function-component.interface"
 
 const Footer: FunctionComponent = () => {
   return (
