@@ -11,7 +11,10 @@
   "rules": {
     "semicolon": false,
     "interface-name": false,
-    "no-console": false,
+    "no-console": {
+      "severity": "warning",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    },
     "object-literal-sort-keys": false,
     "jsx-boolean-value": false,
     "no-var-requires": false,
