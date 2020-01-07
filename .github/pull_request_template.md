@@ -7,6 +7,12 @@ Jira: [YY-XXX]
 // put images here
 </details>
 
+**Self check**
+
+- [ ] Self CR'd
+- [ ] Tests included
+- [ ] Description and screenshots attached
+
 **PR Status**
 
 - [ ] Code Review
