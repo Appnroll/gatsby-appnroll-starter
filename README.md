@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://appnroll.com">
-    <img alt="App'n'roll" src="https://www.appnroll.com/wp-content/themes/appnroll/public/images/logo-rev.svg" width="60" />
+    <img alt="App'n'roll" src="https://appnroll.com/img/appnroll-logotype.svg" width="160" />
   </a>
 </p>
 <h1 align="center">
