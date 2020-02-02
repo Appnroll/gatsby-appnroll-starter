@@ -11,8 +11,6 @@ Based on [Gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-def
 
 ## Features
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Appnroll/gatsby-appnroll-starter.svg)](https://greenkeeper.io/)
-
 - Typescript configured
 - Styled components v4
 - Prettier code styling
