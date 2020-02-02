@@ -2,10 +2,16 @@ import React from "react"
 import AppnrollLogo from "../../../images/appnroll.svg"
 import FunctionComponent from "../../../types/function-component.interface"
 
-const Footer: FunctionComponent = () => {
+interface Props {
+  currentYear?: string
+}
+
+const Footer: FunctionComponent<Props> = ({
+  currentYear = new Date().getFullYear(),
+}) => {
   return (
     <footer>
-      © {new Date().getFullYear()}, Made by
+      © {currentYear}, Made by
       {` `}
       <a href="https://www.appnroll.com/" title="App'n'roll">
         <AppnrollLogo />
