@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { backgroundColor } from "../../../theming/theme-getters"
-import FunctionComponent from "../../../types/function-component.interface"
+import AppFunctionComponent from "../../../types/app-function-component.interface"
 
 const HeaderRoot = styled.header`
   background: ${backgroundColor("primary")};
@@ -18,7 +18,7 @@ interface Props {
   siteTitle: string
 }
 
-const Header: FunctionComponent<Props> = ({ siteTitle }) => {
+const Header: AppFunctionComponent<Props> = ({ siteTitle }) => {
   return (
     <HeaderRoot>
       <ContentWrapper>
