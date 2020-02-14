@@ -91,7 +91,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "jest --config=./.jest/config.js",
