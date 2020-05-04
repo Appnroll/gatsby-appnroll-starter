@@ -6,9 +6,9 @@
  */
 
 import { graphql, useStaticQuery } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import Helmet from "react-helmet"
+import { Helmet } from "react-helmet"
+import AppFunctionComponent from "../types/app-function-component.interface"
 
 type MetaProps = JSX.IntrinsicElements["meta"]
 
@@ -19,7 +19,12 @@ interface Props {
   meta?: MetaProps[]
 }
 
-function SEO({ description = ``, lang = `en`, meta = [], title }: Props) {
+const SEO: AppFunctionComponent<Props> = ({
+  description = ``,
+  lang = `en`,
+  meta = [],
+  title,
+}) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -80,19 +85,6 @@ function SEO({ description = ``, lang = `en`, meta = [], title }: Props) {
       ].concat(meta)}
     />
   )
-}
-
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-}
-
-SEO.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
 }
 
 export default SEO
