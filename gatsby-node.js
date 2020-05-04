@@ -9,8 +9,8 @@ const ignorePages = ["/404/"]
 exports.onPostBuild = async function onPostBuild({ cache, store, graphql }) {
   const { data } = await graphql(allPages)
   const pagesToCheck = data.allSitePage.nodes
-    .map(e => e.path)
-    .filter(url => !url.match(/\/dev-/) && !ignorePages.includes(url))
+    .map((e) => e.path)
+    .filter((url) => !url.match(/\/dev-/) && !ignorePages.includes(url))
   fs.writeFileSync("./lighthouse-pages.json", JSON.stringify(pagesToCheck))
 }
 
@@ -20,6 +20,9 @@ exports.onCreateBabelConfig = ({ actions }) => {
   })
   actions.setBabelPlugin({
     name: require.resolve("@babel/plugin-proposal-nullish-coalescing-operator"),
+  })
+  actions.setBabelPlugin({
+    name: require.resolve("@babel/plugin-proposal-numeric-separator"),
   })
 }
 
