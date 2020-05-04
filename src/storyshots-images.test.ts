@@ -9,7 +9,7 @@ import { resolve } from "path"
 
 // Screenshot time seems to be a bit random creating false negatives. Hence delay.
 const beforeScreenshot = (): Promise<void> => {
-  return new Promise(resolvePromise =>
+  return new Promise((resolvePromise) =>
     setTimeout(() => {
       resolvePromise()
     }, 600)
