@@ -24,6 +24,11 @@ exports.onCreateBabelConfig = ({ actions }) => {
   actions.setBabelPlugin({
     name: require.resolve("@babel/plugin-proposal-numeric-separator"),
   })
+  if (process.env.NODE_ENV === "production") {
+    actions.setBabelPlugin({
+      name: require.resolve("babel-plugin-jsx-remove-data-test-id"),
+    })
+  }
 }
 
 const allPages = `
