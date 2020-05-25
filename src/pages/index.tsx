@@ -1,10 +1,10 @@
+import AppFunctionComponent from "@appnroll/app-function-component"
 import { graphql } from "gatsby"
 import Image, { FluidObject } from "gatsby-image"
 import React from "react"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import AppFunctionComponent from "../types/app-function-component.interface"
 
 const Content = styled.div`
   max-width: 300px;

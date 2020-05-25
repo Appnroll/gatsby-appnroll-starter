@@ -1,6 +1,6 @@
+import AppFunctionComponent from "@appnroll/app-function-component"
 import React from "react"
 import AppnrollLogo from "../../../images/appnroll.svg"
-import AppFunctionComponent from "../../../types/app-function-component.interface"
 
 interface Props {
   currentYear?: string

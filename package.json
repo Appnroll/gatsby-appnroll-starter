@@ -30,6 +30,7 @@
     "tslint-react-a11y": "^1.1.0"
   },
   "devDependencies": {
+    "@appnroll/app-function-component": "^1.0.2",
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
     "@babel/plugin-proposal-numeric-separator": "^7.8.3",

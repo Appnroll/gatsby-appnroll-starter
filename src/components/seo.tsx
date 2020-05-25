@@ -5,10 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+import AppFunctionComponent from "@appnroll/app-function-component"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Helmet } from "react-helmet"
-import AppFunctionComponent from "../types/app-function-component.interface"
 
 type MetaProps = JSX.IntrinsicElements["meta"]
 

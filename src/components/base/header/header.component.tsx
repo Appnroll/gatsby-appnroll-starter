@@ -1,7 +1,7 @@
+import AppFunctionComponent from "@appnroll/app-function-component"
 import React from "react"
 import styled from "styled-components"
 import { backgroundColor } from "../../../theming/theme-getters"
-import AppFunctionComponent from "../../../types/app-function-component.interface"
 
 const HeaderRoot = styled.header`
   background: ${backgroundColor("primary")};
